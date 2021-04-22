@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="319" started-at="2021-04-19T11:25:18Z" finished-at="2021-04-19T11:25:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="319" started-at="2021-04-19T11:25:18Z" finished-at="2021-04-19T11:25:18Z">
+      <class name="com.demo.testng.Sample">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testng.Sample@4678c730]" name="login" duration-ms="34" started-at="2021-04-19T11:25:18Z" data-provider="Res" finished-at="2021-04-19T11:25:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testng.Sample@4678c730]" name="login" duration-ms="32" started-at="2021-04-19T11:25:18Z" data-provider="Res" finished-at="2021-04-19T11:25:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karthick]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testng.Sample@4678c730]" name="login" duration-ms="14" started-at="2021-04-19T11:25:18Z" data-provider="Res" finished-at="2021-04-19T11:25:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Siva]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[789008]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.demo.testng.Sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
