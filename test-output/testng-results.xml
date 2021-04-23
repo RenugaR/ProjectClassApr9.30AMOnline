@@ -2,60 +2,56 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="319" started-at="2021-04-19T11:25:18Z" finished-at="2021-04-19T11:25:18Z">
+  <suite name="Default suite" duration-ms="48246" started-at="2021-04-23T17:27:31Z" finished-at="2021-04-23T17:28:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="319" started-at="2021-04-19T11:25:18Z" finished-at="2021-04-19T11:25:18Z">
-      <class name="com.demo.testng.Sample">
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testng.Sample@4678c730]" name="login" duration-ms="34" started-at="2021-04-19T11:25:18Z" data-provider="Res" finished-at="2021-04-19T11:25:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Raja]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[234567]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="48246" started-at="2021-04-23T17:27:31Z" finished-at="2021-04-23T17:28:19Z">
+      <class name="com.demo.testng.LocationSearch">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.demo.testng.LocationSearch@33afa13b]" name="beforeClass" is-config="true" duration-ms="46227" started-at="2021-04-23T17:27:31Z" finished-at="2021-04-23T17:28:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testng.Sample@4678c730]" name="login" duration-ms="32" started-at="2021-04-19T11:25:18Z" data-provider="Res" finished-at="2021-04-19T11:25:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Karthick]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[456789]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demo.testng.LocationSearch@33afa13b]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2021-04-23T17:28:17Z" finished-at="2021-04-23T17:28:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.demo.testng.Sample@4678c730]" name="login" duration-ms="14" started-at="2021-04-19T11:25:18Z" data-provider="Res" finished-at="2021-04-19T11:25:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Siva]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[789008]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.demo.testng.LocationSearch@33afa13b]" name="test1" duration-ms="1472" started-at="2021-04-23T17:28:17Z" finished-at="2021-04-23T17:28:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- com.demo.testng.Sample -->
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.demo.testng.LocationSearch@33afa13b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-23T17:28:18Z" finished-at="2021-04-23T17:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demo.testng.LocationSearch@33afa13b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-04-23T17:28:18Z" finished-at="2021-04-23T17:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.demo.testng.LocationSearch@33afa13b]" name="test2" duration-ms="132" started-at="2021-04-23T17:28:18Z" finished-at="2021-04-23T17:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.demo.testng.LocationSearch@33afa13b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-04-23T17:28:18Z" finished-at="2021-04-23T17:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demo.testng.LocationSearch@33afa13b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-04-23T17:28:18Z" finished-at="2021-04-23T17:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.demo.testng.LocationSearch@33afa13b]" name="test3" duration-ms="162" started-at="2021-04-23T17:28:18Z" finished-at="2021-04-23T17:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.demo.testng.LocationSearch@33afa13b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-04-23T17:28:19Z" finished-at="2021-04-23T17:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.demo.testng.LocationSearch@33afa13b]" name="afterClass" is-config="true" duration-ms="191" started-at="2021-04-23T17:28:19Z" finished-at="2021-04-23T17:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.demo.testng.LocationSearch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
