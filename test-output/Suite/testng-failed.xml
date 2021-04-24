@@ -5,11 +5,11 @@
     <classes>
       <class name="com.demo.testng.Day2">
         <methods>
+          <include name="test3"/>
           <include name="afterClass"/>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
           <include name="afterMethod"/>
-          <include name="test1"/>
         </methods>
       </class> <!-- com.demo.testng.Day2 -->
     </classes>

@@ -8,6 +8,11 @@ public class Day1Intro {
 	private void beforeSuite() {
 		System.out.println("BeforeSuite");
 	}
+	
+	@BeforeSuite
+	private void beforeSuite1() {
+		System.out.println("BeforeSuite");
+	}
 
 	@AfterSuite
 	private void afterSuite() {

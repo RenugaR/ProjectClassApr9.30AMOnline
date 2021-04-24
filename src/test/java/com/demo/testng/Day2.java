@@ -21,6 +21,8 @@ public class Day2 {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
+		SoftAssert s = new SoftAssert();
+		s.assertTrue(driver.getCurrentUrl().contains("facebook"));
 	}
 
 	@AfterClass
@@ -44,18 +46,13 @@ public class Day2 {
 	private void test3() {
 		WebElement txtUserName = driver.findElement(By.id("email"));
 		txtUserName.sendKeys("Heloo");
-		System.out.println();
-	}
-
-	@Test(enabled = false)
-	private void test1() {
+		SoftAssert s = new SoftAssert();
+		s.assertEquals(txtUserName.getAttribute("value"), "Hello");
+		System.out.println("Assert failed");
 		WebElement txtPass = driver.findElement(By.id("pass"));
 		txtPass.sendKeys("3456789");
-	}
-
-	@Test(invocationCount = 10)
-	private void test4() {
-		System.out.println("test4");
+		s.assertEquals(txtPass.getAttribute("value"), "3456789");
+		s.assertAll();
 	}
 
 	@Test(priority = 2)

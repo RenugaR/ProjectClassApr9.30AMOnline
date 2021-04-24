@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="com.demo.testng.Day2"/>
+      <class name="com.demo.testng.Day1Intro"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
