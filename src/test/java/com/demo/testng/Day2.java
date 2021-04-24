@@ -25,6 +25,17 @@ public class Day2 {
 		s.assertTrue(driver.getCurrentUrl().contains("facebook"));
 	}
 
+	@BeforeClass
+	private void beforeClass1() {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\ADMIN\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.facebook.com/");
+		SoftAssert s = new SoftAssert();
+		s.assertTrue(driver.getCurrentUrl().contains("facebook"));
+	}
+
 	@AfterClass
 	private void afterClass() {
 		driver.close();
