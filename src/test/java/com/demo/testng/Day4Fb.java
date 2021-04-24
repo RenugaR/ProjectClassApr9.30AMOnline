@@ -24,15 +24,6 @@ public class Day4Fb {
 		Thread.sleep(6000);
 	}
 
-	public static void beforeClass() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\elcot\\eclipse-workspace\\SeleniumOne\\Driver\\chromedriver_win32 (2)\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.facebook.com/");
-		driver.manage().window().maximize();
-		Thread.sleep(6000);
-	}
-
 	@AfterClass
 	public static void afterclass() {
 		driver.close();
@@ -60,5 +51,4 @@ public class Day4Fb {
 	public void test2() {
 		driver.findElement(By.name("login")).click();
 	}
-
 }
