@@ -13,7 +13,13 @@ public class baseclass {
 		String url = "https://live.demoguru99.com/";
 		WebDriver d = l.browserLaunch();
 		l.launchURL(url);
-
+public class baseclass {
+	LibGenerics l= new LibGenerics();
+	@BeforeMethod
+	private void start() {
+		String url = "https://live.demoguru99.com/";
+		WebDriver d = l.browserLaunch();
+		l.launchURL(url);
 	}
 	@Test
 	private void Testcase1() {
