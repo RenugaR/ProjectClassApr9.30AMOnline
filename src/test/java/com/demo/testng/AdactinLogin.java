@@ -22,6 +22,10 @@ public class AdactinLogin {
 			pass.sendKeys("1234567");
 			String val2 = pass.getAttribute("value");
 			System.out.println(val2);
+			WebElement pass = driver.findElement(By.id("password"));
+			pass.sendKeys("1234567");
+			String val2 = pass.getAttribute("value");
+			System.out.println(val2);
 	}
 
 }
